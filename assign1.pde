@@ -35,6 +35,8 @@ void draw() {
     bg2_x=640;
 
   //hp
+  fill(255,0,0);
+  rect(10,5,blood,20);
   image(hp,0,0);
   
   //enemy
@@ -44,10 +46,6 @@ void draw() {
   
   //fighter
   image(fighter,519,240);
-  
-  //hp
-  fill(255,0,0);
-  rect(10,5,blood,20);
   
   //treasure
   image(treasure,treasure_x,treasure_y);
